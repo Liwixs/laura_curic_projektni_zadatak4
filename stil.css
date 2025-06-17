@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+p {
+	color:#5E355D; 
+	font-family: Coiny; 
+	font-size: 20px; opacity: 100%;
+	width: 900px;
+	padding: 10px; opacity: 100%;
+	background-color: lightpink;
+}
+h2{
+	font-family: Coiny;
+	font-size: 40px;
+	color: deeppink;
+	padding: 5px;
+	background-color: lightgoldenrodyellow;
+}
+body{
+	background-image: url("slike/Pink-Background-Aesthetic-Backgrounds-Free-Download-City-Morning.jpg"); 
+	background-size: cover;
+}
+ol{
+	color: deeppink; 
+	font-family: Coiny;
+	width: 600px;
+	padding: 10px;
+	background-color: lightpink;
+}
+ul{
+	color: deeppink; 
+	width: 600px;
+	padding: 50px;
+	background-color: lightpink;
+	
+}
+a{
+	color:palevioletred;
+	padding: 5px; 
+	background-color:#FFFBE3;
+	font-size: 20px;
+	font-family: Coiny;
+	
+}
+
+a:hover{
+	color: #7E2669;
+	padding: 15px;
+	background-color: #FFD0FB;
+}
+h1{
+	font-family: LauraCuric;
+	color: palevioletred;
+	font-size: 80px;
+	padding: 50px;
+	background-color: lightgoldenrodyellow
+	
+}
+nav {
+    display: block;
+    unicode-bidi: isolate;
+	font-family: Coiny;
+}
+
+li{
+	display: inline; 
+}
+
+h3{
+	font-family: Coiny;
+	color: deeppink;
+	padding: 5px;
+	width: auto;
+	height: auto;
+	font-size: 15px;
+	background-color: lightgoldenrodyellow;
+}
+
+figcaption{
+	padding: 2px;
+	color: palevioletred;
+	background-color: lightgoldenrodyellow;
+	width: 400px;
+	font-family: Scanda;
+}
+
+.colum{
+	float:left;
+	width: 50%;
+}
+
+h4{
+	font-family: Coiny;
+	color: deeppink;
+	padding: 5px;
+	width: auto;
+	height: auto;
+	font-size: 25px;
+	background-color: lightgoldenrodyellow;
+}
