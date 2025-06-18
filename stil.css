@@ -2,14 +2,16 @@
 /* CSS Document */
 p {
 	color:#5E355D; 
-	font-family: Coiny; 
-	font-size: 20px; opacity: 100%;
+	font-family: "Coiny";
+	src:url("tekst/coiny-regular.ttf"); 
+	font-size: 20px;
 	width: 900px;
-	padding: 10px; opacity: 100%;
+	padding: 10px; 
 	background-color: lightpink;
 }
 h2{
-	font-family: Coiny;
+	font-family: "Coiny";
+	src:url("tekst/coiny-regular.ttf");
 	font-size: 40px;
 	color: deeppink;
 	padding: 5px;
@@ -21,7 +23,8 @@ body{
 }
 ol{
 	color: deeppink; 
-	font-family: Coiny;
+	font-family: "Coiny";
+	src:url("tekst/coiny-regular.ttf");
 	width: 600px;
 	padding: 10px;
 	background-color: lightpink;
@@ -38,7 +41,8 @@ a{
 	padding: 5px; 
 	background-color:#FFFBE3;
 	font-size: 20px;
-	font-family: Coiny;
+	font-family: "Coiny";
+	src:url("tekst/coiny-regular.ttf");
 	
 }
 
@@ -48,7 +52,8 @@ a:hover{
 	background-color: #FFD0FB;
 }
 h1{
-	font-family: LauraCuric;
+	font-family: "LauraCuric";
+	src:url("tekst/Laura Curić final.ttf");
 	color: palevioletred;
 	font-size: 80px;
 	padding: 50px;
@@ -58,7 +63,8 @@ h1{
 nav {
     display: block;
     unicode-bidi: isolate;
-	font-family: Coiny;
+	font-family: "Coiny";
+	src:url("tekst/coiny-regular.ttf");
 }
 
 li{
@@ -66,7 +72,8 @@ li{
 }
 
 h3{
-	font-family: Coiny;
+	font-family: "Coiny";
+	src:url("tekst/coiny-regular.ttf");
 	color: deeppink;
 	padding: 5px;
 	width: auto;
@@ -80,7 +87,9 @@ figcaption{
 	color: palevioletred;
 	background-color: lightgoldenrodyellow;
 	width: 400px;
-	font-family: Scanda;
+	font-family: "Coiny";
+	src:url("tekst/coiny-regular.ttf");
+	
 }
 
 .colum{
@@ -89,7 +98,8 @@ figcaption{
 }
 
 h4{
-	font-family: Coiny;
+	font-family: "Coiny";
+	src:url("tekst/coiny-regular.ttf");
 	color: deeppink;
 	padding: 5px;
 	width: auto;
@@ -97,3 +107,14 @@ h4{
 	font-size: 25px;
 	background-color: lightgoldenrodyellow;
 }
+
+@font-face{
+	font-family: "LauraCuric";
+	src:url("tekst/Laura Curić final.ttf");
+	}
+
+@font-face{
+	font-family: "Coiny";
+	src:url("tekst/coiny-regular.ttf");
+}
+	
